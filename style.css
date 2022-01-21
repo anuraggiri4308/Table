@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+body {
+  position: relative;
+  font-family: 'Nunito', sans-serif;
+  display: flex;
+  background: rgba(196, 196, 196, 0.65);
+}
+.table {
+  position: absolute;
+  left: 28%;
+
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 60px;
+  line-height: 98px;
+  color: #000000;
+}
+.inputBox {
+  position: absolute;
+  width: 110px;
+  height: 65px;
+  left: 47.5%;
+  margin-top: 1%;
+  background: #ffffff;
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+  border: 1px solid #000000c7;
+  border-radius: 5px;
+}
+.searchBtn {
+  position: absolute;
+  width: 160px;
+  height: 70px;
+  left: 60%;
+  margin-top: 0.75%;
+  background: rgb(226, 226, 226);
+  border: 2px solid #000000e1;
+  box-sizing: border-box;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 50px;
+  color: rgba(0, 0, 0, 0.856);
+  text-align: center;
+}
+.searchBtn:hover {
+  background: rgba(0, 0, 0, 0.836);
+  color: rgb(238, 243, 248);
+}
+.message {
+  margin-left: 47.5%;
+  margin-top: 8%;
+  font-size: 36px;
+  width: 170px;
+}
